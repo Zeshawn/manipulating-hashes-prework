@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   
-  data.each do | attribute, value |
+  contacts.each do | attribute, value |
     if attribute ===
       :favorite_icecream_flavors
       value.each do |flavor|
