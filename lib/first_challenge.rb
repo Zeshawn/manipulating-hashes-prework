@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   
- contacts["Freddy Mercury"][:favorite_icecream_flavors].to_not
+ contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
 
 
   #remember to return your newly altered contacts hash!
