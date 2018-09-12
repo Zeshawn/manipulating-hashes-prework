@@ -15,9 +15,7 @@ def first_challenge
 
   #your code here
   
-  contacts.each do |person, data|
-   puts "#{person}: #{data}"
-  end
+ contacts["Freddy Mercury"][:favorite_icecream_flavors].to_not
 
 
   #remember to return your newly altered contacts hash!
